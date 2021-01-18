@@ -16,8 +16,7 @@ export default function Works({ source }) {
 }
 
 export async function getStaticProps({locale,params}) {
-  const workDirectory = path.join(process.cwd(), 'docs');
-  // const source = await import(`../../docs/${locale}/sample.md`);
+  const workDirectory = path.join(process.cwd(), 'works');
   const source = fs.readFileSync(`${workDirectory}/${locale}/sample.md`, 'utf8')
   const mdxSource = await renderToString(source)
   return { props: { source: mdxSource } }

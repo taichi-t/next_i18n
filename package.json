@@ -10,6 +10,7 @@
     "@mdx-js/loader": "^1.5.1",
     "@mdx-js/react": "^1.6.18",
     "@next/mdx": "^9.1.1",
+    "gray-matter": "^4.0.2",
     "next": "latest",
     "next-mdx-remote": "^2.1.1",
     "react": "^16.8.6",

@@ -4,7 +4,7 @@ const withMDX = require('@next/mdx')({
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'mdx'],
   i18n: {
-    locales: ['en-US', 'jp-JP'],
+    locales: ['en-US', 'ja-JP'],
     defaultLocale: 'en-US',
   },
 })

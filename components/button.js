@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 export default function Button({ children }) {
   const { locale, pathname } = useRouter()
   return (
-    <Link href={pathname} locale={locale === "en-US" ? "jp-JP" : "en-US"}>
+    <Link href={pathname} locale={locale === "en-US" ? "ja-JP" : "en-US"}>
       <button
         style={{
           borderRadius: '3px',
